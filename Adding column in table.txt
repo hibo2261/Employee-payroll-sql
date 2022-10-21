@@ -1,0 +1,4 @@
+ALTER TABLE Employee_Payroll ADD gender char(1) NOT NULL;
+UPDATE Employee_Payroll SET gender = 'M' WHERE name = 'Munna';
+UPDATE Employee_Payroll SET gender = 'M' WHERE name = 'zakir';
+UPDATE Employee_Payroll SET gender = 'F' WHERE name = 'apurva';
