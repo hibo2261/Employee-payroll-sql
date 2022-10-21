@@ -1,0 +1,1 @@
+SELECT salary FROM Employee_Payroll WHERE StartDate BETWEEN CAST('2013-02-05' AS DATE) AND DATE(NOW());
