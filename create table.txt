@@ -1,0 +1,7 @@
+CREATE TABLE Employee_Payroll
+     ( ID int not null auto_increment,
+      NAME varchar(51) not null,
+      SALARY Double not null,
+      STARTDATE Date not null,
+      primary key(ID)
+     );
