@@ -1,0 +1,1 @@
+INSERT INTO Employee_Payroll (name,salary,StartDate) VALUES('Munna',16000,'2015-08-12'),('zakir',12000,'2012-07-17'),('apurva',51000,'2013-09-17');
