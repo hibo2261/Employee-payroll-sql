@@ -1,0 +1,7 @@
+select sum(salary) from Employee_Payroll Where gender = 'M' group by gender;
+select sum(salary) from Employee_Payroll Where gender = 'F' group by gender;
+select avg(salary) from Employee_Payroll Where gender = 'M' group by gender;
+select min(salary) from Employee_Payroll Where gender = 'M' group by gender;
+select max(salary) from Employee_Payroll Where gender = 'M' group by gender;
+select count(salary) from Employee_Payroll Where gender = 'M' group by gender;
+select count(salary) from Employee_Payroll Where gender = 'F' group by gender;
