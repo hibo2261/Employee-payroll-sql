@@ -1,0 +1,4 @@
+ALTER TABLE Employee_Payroll ADD phone_number VARCHAR(250) AFTER name;
+ALTER TABLE Employee_Payroll ADD address VARCHAR(250) AFTER phone_number;
+ALTER TABLE Employee_Payroll ADD department VARCHAR(250) AFTER address;
+ALTER TABLE Employee_Payroll ALTER address SET DEFAULT 'TBD';
