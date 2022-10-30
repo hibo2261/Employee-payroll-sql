@@ -1,0 +1,17 @@
+ CREATE TABLE departments(
+     dept_id INT NOT NULL,
+     dept_name varchar(150) NOT NULL,
+     emp_id INT NOT NULL,
+     PRIMARY KEY(dept_id),
+     FOREIGN KEY (emp_id) REFERENCES employee_payroll (id));
+     
+      select  from DEPARTMENTS;
+      
+      CREATE TABLE payroll(
+     payroll_id INT NOT NULL,
+     basic_pay double NOT NULL,
+     PRIMARY KEY(payroll_id),
+     emp_id INT NOT NULL,
+     FOREIGN KEY (emp_id) REFERENCES employee_payroll(id));
+     
+       select  from payroll;
