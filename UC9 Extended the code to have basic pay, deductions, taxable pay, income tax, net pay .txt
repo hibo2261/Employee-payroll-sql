@@ -1,0 +1,6 @@
+ALTER TABLE Employee_Payroll RENAME COLUMN salary TO basic_pay;
+ ALTER TABLE Employee_Payroll ADD deductions Double NOT NULL AFTER basic_pay;
+ ALTER TABLE Employee_Payroll ADD taxable_pay Double NOT NULL AFTER deductions;
+ ALTER TABLE Employee_Payroll ADD tax Double NOT NULL AFTER taxable_pay;
+ ALTER TABLE Employee_Payroll ADD net_pay Double NOT NULL AFTER tax;
+ 
